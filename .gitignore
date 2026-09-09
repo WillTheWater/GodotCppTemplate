@@ -1,0 +1,23 @@
+# --- Godot editor cache ---
+.godot/
+
+# --- Build output (regenerated from source) ---
+out/
+build/
+
+# --- Visual Studio / CMake local files ---
+.vs/
+CMakeSettings.json
+CMakeUserPresets.json
+
+# --- Compiled extension + MSVC byproducts in the Godot project ---
+godot/bin/*.dll
+godot/bin/*.pdb
+godot/bin/*.lib
+godot/bin/*.exp
+godot/bin/*.ilk
+godot/bin/*.so
+godot/bin/*.dylib
+
+# ...but always keep the extension manifest:
+!godot/bin/*.gdextension
